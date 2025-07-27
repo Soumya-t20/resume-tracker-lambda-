@@ -32,26 +32,9 @@ A simple, serverless resume/job application tracker built with AWS services. It 
 
 ---
 
-## 📝 Sample Request (Postman / curl)
+🧑‍💻 How It Works
 
-**POST** to:  
-https://03mkrkv4m7.execute-api.us-east-1.amazonaws.com/default/ResumeTrackerFunction
-
-**Headers**:
-```http
-Content-Type: application/json
-body:
-{
-  "userEmail": "soumya.thalapaneni@gmail.com",
-  "company": "Amazon",
-  "role": "SDE Intern",
-  "status": "Applied",
-  "notes": "Referred by Jane"
-}
-
-
-
-**📬 SES Sandbox Note**
+##**📬 SES Sandbox Note**
 If you're using SES in sandbox mode:
 
 You must verify the sender and recipient email addresses in SES
@@ -73,4 +56,21 @@ Alternatively, request production access in AWS support center
 Anthony Mary Thalapaneni
 LinkedIn • GitHub
 Built with ❤️ for learning and career growth
+## 📝 Sample Request (Postman / curl)
+
+**POST** to:  
+https://03mkrkv4m7.execute-api.us-east-1.amazonaws.com/default/ResumeTrackerFunction
+
+**Headers**:
+```http
+Content-Type: application/json
+body:
+{
+  "userEmail": "soumya.thalapaneni@gmail.com",
+  "company": "Amazon",
+  "role": "SDE Intern",
+  "status": "Applied",
+  "notes": "Referred by Jane"
+}
+
 
