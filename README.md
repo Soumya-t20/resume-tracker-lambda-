@@ -50,4 +50,26 @@ body:
 }
 
 
+📬 SES Sandbox Note
+If you're using SES in sandbox mode:
+
+You must verify the sender and recipient email addresses in SES
+
+Alternatively, request production access in AWS support center
+
+✅ To-Do / Next Steps
+ Add a React or HTML frontend
+
+ Add analytics dashboard (e.g., # of applications, status chart)
+
+ Add login (AWS Cognito)
+
+ Export data as CSV
+
+ Deploy frontend with S3 or Netlify
+
+👨‍💻 Author
+Anthony Mary Thalapaneni
+LinkedIn • GitHub
+Built with ❤️ for learning and career growth
 
