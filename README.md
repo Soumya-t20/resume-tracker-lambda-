@@ -5,7 +5,7 @@ A simple, serverless resume/job application tracker built with AWS services. It 
 
 ## 🚀 Features
 
-- ✅ Submit job applications via REST API
+- ✅ Submit job applications data via REST API
 - ✅ Store application data in DynamoDB
 - ✅ Trigger email confirmation via AWS SES
 - ✅ Built entirely using AWS Lambda, API Gateway, and SES
