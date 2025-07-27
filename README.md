@@ -50,14 +50,15 @@ body:
 }
 
 
-📬 SES Sandbox Note
+
+**📬 SES Sandbox Note**
 If you're using SES in sandbox mode:
 
 You must verify the sender and recipient email addresses in SES
 
 Alternatively, request production access in AWS support center
 
-✅ To-Do / Next Steps
+**✅ To-Do / Next Steps**
  Add a React or HTML frontend
 
  Add analytics dashboard (e.g., # of applications, status chart)
